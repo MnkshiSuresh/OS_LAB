@@ -25,7 +25,7 @@ int main(){
         p[i].wtime=p[i-1].wtime + p[i-1]btime;
         p[i].ttime=p[i].wtime+p[i].btime;
         totttime+=p[i].ttime;
-        totwtime=p[i].wtime;
+        totwtime+=p[i].wtime;
     }
     printf("Total Waiting Time:%d\n",totwtime);
     printf("Average Waiting Time:%d\n",totwtime/n);
