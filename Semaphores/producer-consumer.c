@@ -28,7 +28,7 @@ int main(){
     int n,i;
     printf("1. Press 1 for Producer Process\n2. Press 2 for Consumer Process\n3. Press 3 to Exit\n");
     for(i=1;i>0;i++){
-        printf("\nenter your choice\n");
+        printf("\n Enter your Choice\n");
         scanf("%d",&n);
         switch(n){
             case 1:
