@@ -12,6 +12,6 @@ int main(){
     printf("Key of the shared memory is %d\n",shmid);
     shared_memory=shmat(shmid,NULL,0);
     printf("Process attached at %p\n",shared_memory);
-    printf("Data read from sahred_memory is:%s\n",(char*)shared_memory);
+    printf("Data read from shared_memory is:%s\n",(char*)shared_memory);
     return 0;
 }
