@@ -1,0 +1,4 @@
+You and 2 other friends decided to start a business, and for that, you deposited a fixed amount in a 
+locker and created a password for the locker which has been split into two parts and given to the other two respectively So that they all 
+must be present in case to update the locker. Both of them don't know about the amount deposited and 
+also the complete password. So write a C program to withdraw the particular amount from the locker and for the password. 
