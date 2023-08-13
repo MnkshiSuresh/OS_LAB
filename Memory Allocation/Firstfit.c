@@ -43,12 +43,12 @@ int main() {
    int b[bno];
    printf("enter the size of processes:\n");
    for(int i=0;i<pno;i++){
-       printf("P%d:",i);
+       printf("P%d:",i+1);
        scanf("%d",&p[i]);
    }
    printf("enter the size of blocks:\n");
    for(int i=0;i<bno;i++){
-       printf("B%d:",i);
+       printf("B%d:",i+1);
        scanf("%d",&b[i]);
    }
    firstfit(p,pno,b,bno);
